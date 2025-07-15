@@ -1,0 +1,69 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  background-color: #e5e5e5;
+  z-index: 1000;
+}
+
+.nav-logo {
+  height: 20px;
+  object-fit: contain;
+}
+
+.nav-brand a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #666;
+}
+
+.nav-actions a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-actions a:hover {
+  color: #666;
+} 
+
+.cart-icon1 {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon1 img {
+  color: #000;
+  width: 22px;
+  height: 22px;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main-content,
+.video-section,
+.gear-up-container,
+.product-grid {
+  width: 100%;
+}
